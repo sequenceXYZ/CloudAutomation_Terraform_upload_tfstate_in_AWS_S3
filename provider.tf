@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "agnija-bucket-terraform2-30-1-2024"
+    bucket = "agnija-bucket-terraform2"
     key    = "terraform.tfstate"
     region = "eu-central-1"
   }
